@@ -1,0 +1,703 @@
+*{
+    font-family:"Open sans", sans-serif;
+}
+body{
+    margin:0px;
+    color:#534C38;
+}
+.clear{
+    clear:both;
+}
+.clear:before,
+.clear:after{
+    content: "";
+    display: table;
+}
+.clear:after{
+    clear:both;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.white-special-background{
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+    padding:10px 30px;
+}
+.brown-special-background{
+    background-image: url("img/brown_bg.png");
+}
+.main-container{
+    width::1280px;
+    margin: 0;
+}
+/*=============================================MENU AR LOGO============================================================================*/
+.header{
+    width:100%;
+    height: 96px;
+    background-color: #473A2D;
+}
+.header .logo{
+    height: 100%;
+    width: 200px;
+    background-color:#473A2D;
+    margin-left: 60px;
+    float:left;
+}
+.header .logo .logo-image{
+    margin-top: 28px;
+}
+.header .navigation-container{
+    width: 600px;
+    background-color:#473A2D;
+    float:right;
+    margin-right: 30px;
+    padding: 20px 0;
+}
+.header .navigation-container .menu{
+    height: 53px;
+    width: 476px;
+    /*width: 491px;*/
+    background-color:#473A2D;
+    float:left;
+    border-right: 1px solid white;
+}
+.header .navigation-container .menu ul {
+    list-style-type: none;
+}
+.header .navigation-container .menu ul li {
+    float:left;
+    margin-top: -8px;
+}
+.header .navigation-container .menu ul li a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:10px;
+}
+.header .navigation-container .menu ul li a:hover{
+    background-color: #5B4D3B;
+}
+.header .navigation-container .languages{
+    height: 56px;
+    width: 123px;
+    background-color:#473A2D;
+    float:right;
+}
+.header .navigation-container .languages ul{
+    list-style-type:none;
+}
+.header .navigation-container .languages ul li {
+    float:left;
+    margin-top: -8px;
+}
+.header .navigation-container .languages ul li a{
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding:10px;
+}
+.firstli{
+    margin-left:-20px;
+}
+.header .navigation-container .languages ul li a:hover{
+    background-color: #5B4D3B;
+}
+/*============================================BILDE AR TĀLSKATI=====================================================================*/
+.slider{
+    height: 500px;
+    background-color:red;
+}
+.slider-image{
+    height:503px;
+    width:100%;
+}
+.slider{
+    position: relative;
+}
+.slider-links-container{
+    position: absolute;
+    bottom:0;
+    left:600px;
+    margin-bottom: 20px;
+}
+#section-1-div-1 {
+    width: 268px;
+    height: 72px;
+    margin-top: -363px;
+    margin-left: 183px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*opacity: 0.5;*/
+}
+
+.section-1-p-1 {
+    text-align: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+    font-size: 44px;
+    color: #F5F2EB;
+    font-family: "Open Sans"
+}
+#section-1-div-2 {
+    margin-top: -261px;
+    margin-left: 183px;
+    position: absolute;
+    width: 408px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.section-1-p-2 {
+    font-size: 24px;
+    font-family: "Open Sans";
+    color: #FFFFDC;
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 14px;
+    width: inherit;
+}
+.arrow-left {
+    position: absolute;
+    margin-left: 101px;
+    margin-top: -307px;
+}
+.arrow-right {
+    position: absolute;
+    margin-left: 1275px;
+    margin-top: -307px;
+}
+span.slider-link{
+    border: 4px solid #CEBB89;
+    border-radius: 50%;
+    background-color: #CEBB89;
+    width: 20px;
+    display: block;
+    height:20px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+span.slider-link:hover{
+    background-color: #D9CBBF;
+    cursor:pointer;
+/*border-radius:0%*/
+}
+/*============================================================PAKALPOJUMI=============================================================*/
+.sub-container-header-block {
+    border-bottom: 1px dashed #C7A457;
+    height:60px;
+    margin-bottom: 40px;
+}
+.sub-container-header-block h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#C7A457;
+    font-weight: lighter;
+}
+.service-block{
+    width: 406px;
+    float:left;
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+/*background-color: yellow;*/
+}
+.service-block > div{
+    float:left;
+    height: inherit;
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+/*background-color: green;*/
+}
+.service-block-icon-block{
+    width: 70px;
+}
+.service-content-devider{
+    border-bottom: 1px solid #C7C6BF;
+    width: 50px;
+}
+.service-block-content-block{
+    width: 325px;
+    margin-left: 10px;
+}
+.service-block-content-block h2{
+    text-transform: uppercase;
+    font-size:18px;
+    margin-top:0px;
+    color:#473A15;
+}
+.center-service-block{
+    margin: 0 35px;
+}
+.services{
+    height: 600px;
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+}
+/*=============================================PAKALPOJUMU IZCENOJUMI==================================================================*/
+.prices .float-left{
+    width:609px;
+    height: 440px;
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+}
+.prices-block1{
+    margin-right: 50px;
+}
+.prices-block2{
+    margin-left: 20px;
+}
+.prices{
+/*height: 400px;*/
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+}
+.prices-paragraph{
+    color:#776E59;
+}
+table .smaller-text{
+    font-size: 10px;
+}
+.table-row-title, .table-row-first{
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.prices table{
+    border-collapse: collapse;
+    min-width: 100%;
+    /*border-collapse: collapse;*/
+    table-layout: fixed;
+}
+.prices table td.price{
+    text-align: center;
+    font-weight:800;
+}
+.line-bottom{
+  border-bottom: 1px solid #DFD9CF;
+}
+.line-up{
+  border-top: 1px solid #DFD9CF;
+}
+#price-up {
+  vertical-align: top;
+}
+.prices table td, th{
+    color: #594E32;
+}
+.prices table tr.grey-bg{
+    background-color: #F2EBE1;
+}
+.small-text{
+	font-size: 11px;
+}
+/*========================================================PAR MUMS==================================================================*/
+.about-us{
+    background-image: url("img/Mernieks-fons-tumsais.jpg");
+    background-repeat: repeat;
+}
+.about-us-text-block {
+    color:#EDE9E5;
+  /*baltā krāsa neparādās, it kā kods pareizs????????????????????????????????????*/
+}
+.about-us-subcontainer{
+    margin:0 50px;
+}
+.about-us .personal-info-container{
+    width: 425px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("img/Mernieks-fons-tumsais.jpg");
+    text-align: center;
+}
+.about-us .personal-info-container img{
+    width: 200px;
+    border: 5px solid #C7A457;
+    border-radius: 50%;
+}
+.about-us .personal-info-container h1{
+    font-size:50px;
+    font-weight: lighter;
+    color:#C7A457;
+    line-height: 10px;
+}
+.personal-info-devider{
+    border-bottom: 1px solid #C7A457;
+    margin-bottom: 10px;
+}
+.certificates-container{
+    background-color: #624A36;
+    margin-top: -41px;
+    padding-top: 10px;
+}
+.first{
+  margin-left: 76px !important;
+}
+.one-certificate{
+    background-color: #624A36;
+    /*background-color: red;*/
+    width: 210px;
+    height: 70px;
+    margin: 0 10px;
+}
+.one-certificate p{
+    font-size: 12px;
+    color:white;
+}
+.one-certificate img{
+    margin-right: 20px;
+    padding-top: 14px;
+}
+.two-certificate{
+    background-color: #624A36;
+    /*background-color: red;*/
+    width: 210px;
+    height: 70px;
+    margin: 0 190px;
+}
+.two-certificate p{
+    padding-top: 0px;
+    font-size: 12px;
+    color:white;
+}
+.two-certificate img{
+    margin-right: 20px;
+    padding-top: 12px;
+}
+.personal-info-text{
+    color:white;
+}
+.about-us .tel, .about-us .email{
+    color: #C7A457;
+}
+.about-us-person1, .about-us-person2{
+    width:600px;
+    height:700px;
+    /*background-color: yellow;*/
+    background-image: url("img/Mernieks-fons-tumsais.jpg");
+}
+.about-us-person1{
+    margin-right: 9px;
+}
+.about-us-person2{
+    margin-left: 40px;
+}
+.about-us-text-block p{
+    color: white;
+}
+/*=================================================================================KLIENTI==============================================*/
+.clients{
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+    position: relative;
+  	height: 630px;
+}
+.clients-logos-container{
+  margin: 0 0 50px 0;
+}
+.clients-logos-container1{
+  width: 100%;
+  height: 80px;
+	margin-top: 80px;
+}
+.latvrep-logo,.valst-mezi-logo,.gibson-logo, .busbuild-logo, .baltsusfor-logo, .statoil-logo, .casamona-logo, .blueroots-logo,
+.latvvalsceli-logo, .latvenergo-logo, .filterline-logo, .lmt-logo, .ventsbrivparv-logo, .ventsbunk-logo, .latio-logo, .ventspasv-logo{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.latvrep-logo{
+    background-image: url("_temp/Latvijas-rep-logo1.png");
+    width: 217px;
+  	height: 56px;
+  	cursor: pointer;
+  	margin-top: 10px;
+  	margin-right: 109px;
+}
+.latvrep-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/Latvijas-rep-logo.png");
+}
+.valst-mezi-logo{
+    background-image: url("_temp/lvm-logo-2.png");
+    width: 156px;
+  	height: 73px;
+  	cursor: pointer;
+  	margin-top: 5px;
+  	margin-right: 109px;
+}
+.valst-mezi-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/lvm-logo.png");
+}
+.gibson-logo{
+    background-image: url("_temp/logo-gibson1.png");
+    width: 159px;
+  	height: 51px;
+  	cursor: pointer;
+  	margin-top: 15px;
+  	margin-right: 109px;
+}
+.gibson-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/logo-gibson2.png");
+}
+.busbuild-logo{
+    background-image: url("_temp/busines-buld-logo2.png");
+    width: 103px;
+  	height: 57px;
+  	cursor: pointer;
+  	margin-top: 10px;
+  	margin-right: 108px;
+}
+.busbuild-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/busines-buld-logo.png");
+}
+.baltsusfor-logo{
+    background-image: url("_temp/baltic-sust-logo2.png");
+    width: 169px;
+  	height: 37px;
+  	cursor: pointer;
+  	margin-top: 20px;
+    margin-right:0px;
+}
+.baltsusfor-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/baltic-sust-logo.png");
+}
+.clients-logos-container2{
+  width: 100%;
+  height: 77px;
+  margin-top: 80px;
+}
+.statoil-logo{
+    background-image: url("_temp/statoi2l.png");
+    width: 305px;
+  	height: 43px;
+  	cursor: pointer;
+  	margin-top: 17px;
+  	margin-right: 93px;
+}
+.statoil-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/statoil.png");
+}
+.casamona-logo{
+    background-image: url("_temp/casamona2.png");
+    width: 158px;
+  	height: 46px;
+  	cursor: pointer;
+  	margin-top: 10px;
+  	margin-right: 93px;
+}
+.casamona-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/casamona.png");
+}
+.blueroots-logo{
+    background-image: url("_temp/blue-roots2.png");
+    width: 175px;
+  	height: 46px;
+  	cursor: pointer;
+  	margin-top: 15px;
+  	margin-right: 92px;
+}
+.blueroots-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/blue-roots.png");
+}
+.latvvalsceli-logo{
+    background-image: url("_temp/latv-valts-ce-2.png");
+    width: 75px;
+  	height: 75px;
+  	cursor: pointer;
+  	margin-top: 0px;
+  	margin-right: 92px;
+}
+.latvvalsceli-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/latv-valts-cel.png");
+}
+.latvenergo-logo{
+    background-image: url("_temp/latvenergo-logo2.png");
+    width: 156px;
+  	height: 40px;
+  	cursor: pointer;
+  	margin-top: 19px;
+}
+.latvenergo-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/latvenergo-logo.png");
+}
+.clients-logos-container3{
+  width: 100%;
+	height: 90px;
+	margin-top: 80px;
+}
+.filterline-logo{
+    background-image: url("_temp/fiter2.png");
+    width: 74px;
+  	height: 89px;
+  	cursor: pointer;
+  	margin-top: 0px;
+  	margin-right: 95px;
+}
+.filterline-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/fiter.png");
+}
+.lmt-logo{
+    background-image: url("_temp/lmt2.png");
+    width: 128px;
+  	height: 46px;
+  	cursor: pointer;
+  	margin-top: 20px;
+  	margin-right: 95px;
+}
+.lmt-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/lmt.png");
+}
+.ventsbrivparv-logo{
+    background-image: url("_temp/osta2.png");
+    width: 86px;
+  	height: 79px;
+  	cursor: pointer;
+  	margin-top: 4px;
+  	margin-right: 95px;
+}
+.ventsbrivparv-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/osta.png");
+}
+.ventsbunk-logo{
+    background-image: url("_temp/ventbunker2.png");
+    width: 175px;
+  	height: 46px;
+  	cursor: pointer;
+  	margin-top: 27px;
+  	margin-right: 94px;
+}
+.ventsbunk-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/ventbunker.png");
+}
+.latio-logo{
+    background-image: url("_temp/latio2.png");
+    width: 113px;
+  	height: 53px;
+  	cursor: pointer;
+  	margin-top: 20px;
+  	margin-right: 94px;
+}
+.latio-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/latio.png");
+}
+.ventspasv-logo{
+    background-image: url("_temp/ventsp.png");
+    width: 188px;
+  	height: 62px;
+  	cursor: pointer;
+  	margin-top: 15px;
+}
+.ventspasv-logo:hover{
+    cursor:pointer;
+    background-image: url("_temp/ventsp.png");
+}
+.up{
+	background-image: url("img/UP-bulta.png");
+  position: absolute;
+  width: 59px;
+	height: 58px;
+	bottom: 12px;
+	right: 20px;
+	cursor: pointer;
+  /*background-color: red;*/
+}
+.up:hover{
+	background-image: url("img/top.png");
+}
+
+/*=========================================================KONTAKTI===================================================================*/
+.contacts{
+    background-image: url("img/Mernieks-fons-tumsais.jpg");
+    height:505px;
+    /*margin: 0 50px;*/
+}
+.contacts-border{
+  margin: 0 50px;
+}
+.contacts-map-container{
+    width: 400px;
+    /*margin-left: 70px;*/
+}
+.contacts-map{
+    height: 334px;
+    /*width: 100%;*/
+    /*margin: 0 -66px;*/
+    border: 5px solid #C7A457;
+}
+.google-map{
+    width: 100%;
+    height: 100%;
+}
+.contacts-info-container{
+    width: 370px;
+    text-align:center;
+    margin: 0 30px;
+}
+.contacts-company-name{
+    text-transform: uppercase;
+}
+.contacts-info-container .contacts-phones{
+    color: #EACC8B;
+}
+.contacts-info-container p{
+    color:#C7A457;
+}
+.contact-form-container{
+    width: 419px;
+}
+.contact-form-container form input[type="text"] form .text-field{
+    background-color: #7F6C42;
+    border: none;
+    color:#8C7749;
+    padding-left: 10px;
+}
+.contact-form-buttom{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #C7A457;
+    border: none;
+    color: white;
+}
+.firstname-field, .email-field{
+    width: 180px;
+    height: 30px;
+    background-color: #7F6C42;
+    border:none;
+    padding-left:10px;
+}
+.firstname-field{
+    margin-right: 34px;
+}
+.form-title{
+    text-transform: uppercase;
+    color:#EACC8B;
+}
+.text-field{
+    margin-top: 30px;
+    height: 155px;
+    width: 100%;
+    resize:none;
+    box-sizing: border-box;
+    background-color: #7F6C42;
+    border:none;
+    padding-left:10px;
+}
+.form-title-2{
+    color: #F9E09E;
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder{
+    color:#b1965c;
+}
