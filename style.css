@@ -75,7 +75,7 @@ body{
     display: block;
     color:white;
     text-decoration: none;
-    padding:10px;
+    padding:8px;
 }
 .header .navigation-container .menu ul li a:hover{
     background-color: #5B4D3B;
@@ -165,11 +165,13 @@ body{
     position: absolute;
     margin-left: 101px;
     margin-top: -307px;
+    opacity: 0.6;
 }
 .arrow-right {
     position: absolute;
     margin-left: 1275px;
     margin-top: -307px;
+    opacity: 0.6;
 }
 span.slider-link{
     border: 4px solid #CEBB89;
@@ -208,11 +210,23 @@ span.slider-link:hover{
     float:left;
     height: inherit;
     background-image: url("img/Mernieks-fons-gaisais.jpg");
-    
 /*background-color: green;*/
 }
+/*.service-block > div{
+    height: inherit;
+    background-image: url("img/Mernieks-fons-gaisais.jpg");
+/*background-color: green;*/
+}*/
 .service-block-icon-block{
     width: 70px;
+}
+.service-block-right{
+  float: right !important;
+  width: 370px;
+}
+.service-block-right .service-block-content-block{
+  float: right;
+  width: 296px;
 }
 .service-content-devider{
     border-bottom: 1px solid #C7C6BF;
@@ -221,6 +235,7 @@ span.slider-link:hover{
 .service-block-content-block{
     width: 325px;
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 .service-block-content-block h2{
     text-transform: uppercase;
@@ -235,6 +250,16 @@ span.slider-link:hover{
     height: 600px;
     background-image: url("img/Mernieks-fons-gaisais.jpg");
 }
+.service-block-content-block-content{
+  padding-left:38px;
+}
+.service-block-content-header{
+  padding-left: 37px;
+}
+.special{
+  padding-left: 10px;
+}
+
 /*=============================================PAKALPOJUMU IZCENOJUMI==================================================================*/
 .prices .float-left{
     width:609px;
@@ -255,7 +280,7 @@ span.slider-link:hover{
     color:#776E59;
 }
 table .smaller-text{
-    font-size: 10px;
+    font-size: 11px;
 }
 .table-row-title, .table-row-first{
     text-align: left;
@@ -272,6 +297,15 @@ table .smaller-text{
 .prices table td.price{
     text-align: center;
     font-weight:800;
+    padding-right: 10px;
+}
+#bold-text{
+  font-weight:600;
+}
+#prices-table-comment{
+  padding-left: 15px;
+  margin-top: 10px;
+  font-style: italic;
 }
 .line-bottom{
   border-bottom: 1px solid #DFD9CF;
@@ -289,7 +323,7 @@ table .smaller-text{
     background-color: #F2EBE1;
 }
 .small-text{
-	font-size: 11px;
+	font-size: 14px;
 }
 /*========================================================PAR MUMS==================================================================*/
 .about-us{
@@ -298,6 +332,7 @@ table .smaller-text{
 }
 .about-us-text-block {
     color:#EDE9E5;
+    line-height: 25px;
   /*baltā krāsa neparādās, it kā kods pareizs????????????????????????????????????*/
 }
 .about-us-subcontainer{
@@ -306,7 +341,7 @@ table .smaller-text{
 .about-us .personal-info-container{
     width: 425px;
     height: 400px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-image: url("img/Mernieks-fons-tumsais.jpg");
     text-align: center;
 }
@@ -322,12 +357,12 @@ table .smaller-text{
     line-height: 10px;
 }
 .personal-info-devider{
-    border-bottom: 1px solid #C7A457;
+    border-bottom: 1px solid #8d7b66;
     margin-bottom: 10px;
 }
 .certificates-container{
     background-color: #624A36;
-    margin-top: -41px;
+    margin-top: -69px;
     padding-top: 10px;
 }
 .first{
@@ -366,13 +401,14 @@ table .smaller-text{
 }
 .personal-info-text{
     color:white;
+    line-height: 30px;
 }
 .about-us .tel, .about-us .email{
     color: #C7A457;
 }
 .about-us-person1, .about-us-person2{
     width:600px;
-    height:700px;
+    height:820px;
     /*background-color: yellow;*/
     background-image: url("img/Mernieks-fons-tumsais.jpg");
 }
@@ -621,7 +657,7 @@ table .smaller-text{
 /*=========================================================KONTAKTI===================================================================*/
 .contacts{
     background-image: url("img/Mernieks-fons-tumsais.jpg");
-    height:505px;
+    height:550px;
     /*margin: 0 50px;*/
 }
 .contacts-border{
@@ -629,6 +665,7 @@ table .smaller-text{
 }
 .contacts-map-container{
     width: 400px;
+    padding-top: 40px;
     /*margin-left: 70px;*/
 }
 .contacts-map{
@@ -644,7 +681,7 @@ table .smaller-text{
 .contacts-info-container{
     width: 370px;
     text-align:center;
-    margin: 0 30px;
+    margin: 40px 30px;
 }
 .contacts-company-name{
     text-transform: uppercase;
@@ -657,6 +694,7 @@ table .smaller-text{
 }
 .contact-form-container{
     width: 419px;
+    padding-top: 30px;
 }
 .contact-form-container form input[type="text"] form .text-field{
     background-color: #7F6C42;
@@ -665,11 +703,11 @@ table .smaller-text{
     padding-left: 10px;
 }
 .contact-form-buttom{
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #C7A457;
     border: none;
-    color: white;
+    color:white;
 }
 .firstname-field, .email-field{
     width: 180px;
@@ -677,6 +715,7 @@ table .smaller-text{
     background-color: #7F6C42;
     border:none;
     padding-left:10px;
+    color:#b1965c;
 }
 .firstname-field{
     margin-right: 34px;
@@ -686,14 +725,15 @@ table .smaller-text{
     color:#EACC8B;
 }
 .text-field{
-    margin-top: 30px;
-    height: 155px;
+    margin-top: 25px;
+    height: 186px;
     width: 100%;
     resize:none;
     box-sizing: border-box;
     background-color: #7F6C42;
     border:none;
     padding-left:10px;
+    color:#b1965c;
 }
 .form-title-2{
     color: #F9E09E;
