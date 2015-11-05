@@ -220,6 +220,12 @@ span.slider-link:hover{
 .service-block-icon-block{
     width: 70px;
 }
+.space-icon{
+  margin-right: 10px;
+}
+/*.space-icon2{
+  margin-left: 10px;
+}*/
 .service-block-right{
   float: right !important;
   width: 370px;
