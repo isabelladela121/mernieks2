@@ -27,7 +27,7 @@ body{
     padding:10px 30px;
 }
 .brown-special-background{
-    background-image: url("img/brown_bg.png");
+    background-image: url("img/Mernieks-fons-tumsais.jpg");
 }
 .main-container{
     width::1280px;
@@ -82,11 +82,22 @@ body{
 }
 .header .navigation-container .languages{
     height: 56px;
-    width: 123px;
+    /*width: 123px;*/
     background-color:#473A2D;
-    float:right;
+    float:left;
+    margin-left: 18px;
 }
-.header .navigation-container .languages ul{
+.header .navigation-container .languages a{
+  display:inline-block;
+  color: white;
+  text-decoration:none;
+  padding: 5px;
+  margin-top: 12px;
+}
+.header .navigation-container .languages a:hover{
+  background-color: #5B4D3B;
+}
+/*.header .navigation-container .languages ul{
     list-style-type:none;
 }
 .header .navigation-container .languages ul li {
@@ -104,7 +115,7 @@ body{
 }
 .header .navigation-container .languages ul li a:hover{
     background-color: #5B4D3B;
-}
+}*/
 /*============================================BILDE AR TĀLSKATI=====================================================================*/
 .slider{
     height: 500px;
@@ -122,6 +133,34 @@ body{
     bottom:0;
     left:600px;
     margin-bottom: 10px;
+}
+/*span.slider-link{
+    border: 4px solid #CEBB89;
+    border-radius: 50%;
+    background-color: #CEBB89;
+    width: 15px;
+    display: block;
+    height:15px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+span.slider-link:hover{
+    background-color: #D9CBBF;
+    cursor:pointer;*/
+.slider-link-button{
+    /*padding: 0 0 0 20px;*/
+    border: 4px solid #CEBB89;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    margin-right: 4px;
+    background-color:#CEBB89;
+    opacity: 0.5;
+}
+.slider-link-button:hover{
+  background-color:#D9CBBF ;
+  cursor: pointer;
 }
 #section-1-div-1 {
     width: 268px;
@@ -161,31 +200,22 @@ body{
     margin-top: 14px;
     width: inherit;
 }
-.arrow-left {
+.left-arrow-button {
     position: absolute;
     margin-left: 101px;
     margin-top: -307px;
     opacity: 0.6;
 }
-.arrow-right {
+.right-arrow-button {
     position: absolute;
     margin-left: 1275px;
     margin-top: -307px;
     opacity: 0.6;
 }
-span.slider-link{
-    border: 4px solid #CEBB89;
-    border-radius: 50%;
-    background-color: #CEBB89;
-    width: 15px;
-    display: block;
-    height:15px;
-    margin-right: 10px;
-    opacity: 0.5;
+.left-arrow-button, .right-arrow-button{
+  border:none;
+  background: none;
 }
-span.slider-link:hover{
-    background-color: #D9CBBF;
-    cursor:pointer;
 /*border-radius:0%*/
 }
 /*============================================================PAKALPOJUMI=============================================================*/
@@ -361,15 +391,17 @@ table .smaller-text{
     font-size:50px;
     font-weight: lighter;
     color:#C7A457;
-    line-height: 10px;
+    line-height: 86px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #8d7b66;
 }
-.personal-info-devider{
+/*.personal-info-devider{
     border-bottom: 1px solid #8d7b66;
     margin-bottom: 10px;
-}
+}*/
 .certificates-container{
     background-color: #624A36;
-    margin-top: -69px;
+    margin-top: -39px;
     padding-top: 10px;
 }
 .first{
@@ -647,7 +679,20 @@ table .smaller-text{
     cursor:pointer;
     background-image: url("_temp/ventsp.png");
 }
-.up{
+.up-button{
+  background-image: url("img/UP-bulta.png");
+  position: absolute;
+  border:none;
+  width: 59px;
+	height: 58px;
+	bottom: 12px;
+	right: 20px;
+	cursor: pointer;
+}
+.up-button:hover{
+  background-image: url("img/top.png");
+}
+/*.up{
 	background-image: url("img/UP-bulta.png");
   position: absolute;
   width: 59px;
@@ -657,9 +702,9 @@ table .smaller-text{
 	cursor: pointer;
   /*background-color: red;*/
 }
-.up:hover{
-	background-image: url("img/top.png");
-}
+/*.up:hover{
+	background-image: url("img/top.png");*/
+}*/
 
 /*=========================================================KONTAKTI===================================================================*/
 .contacts{
@@ -676,7 +721,7 @@ table .smaller-text{
     /*margin-left: 70px;*/
 }
 .contacts-map{
-    height: 334px;
+    height: 340px;
     /*width: 100%;*/
     /*margin: 0 -66px;*/
     border: 5px solid #C7A457;
