@@ -747,6 +747,7 @@ table .smaller-text{
 .contact-form-container{
     width: 419px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .contact-form-container form input[type="text"] form .text-field{
     background-color: #7F6C42;
