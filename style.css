@@ -59,7 +59,6 @@ body{
 .header .navigation-container .menu{
     height: 53px;
     width: 476px;
-    /*width: 491px;*/
     background-color:#473A2D;
     float:left;
     border-right: 1px solid white;
@@ -91,31 +90,13 @@ body{
   display:inline-block;
   color: white;
   text-decoration:none;
-  padding: 5px;
-  margin-top: 12px;
+  padding: 10px;
+  margin-top: 6px;
+  margin-right:-5px;
 }
 .header .navigation-container .languages a:hover{
   background-color: #5B4D3B;
 }
-/*.header .navigation-container .languages ul{
-    list-style-type:none;
-}
-.header .navigation-container .languages ul li {
-    float:left;
-    margin-top: -8px;
-}
-.header .navigation-container .languages ul li a{
-    display: block;
-    color: white;
-    text-decoration:none;
-    padding:10px;
-}
-.firstli{
-    margin-left:-20px;
-}
-.header .navigation-container .languages ul li a:hover{
-    background-color: #5B4D3B;
-}*/
 /*============================================BILDE AR TĀLSKATI=====================================================================*/
 .slider{
     height: 500px;
@@ -134,21 +115,7 @@ body{
     left:600px;
     margin-bottom: 10px;
 }
-/*span.slider-link{
-    border: 4px solid #CEBB89;
-    border-radius: 50%;
-    background-color: #CEBB89;
-    width: 15px;
-    display: block;
-    height:15px;
-    margin-right: 10px;
-    opacity: 0.5;
-}
-span.slider-link:hover{
-    background-color: #D9CBBF;
-    cursor:pointer;*/
 .slider-link-button{
-    /*padding: 0 0 0 20px;*/
     border: 4px solid #CEBB89;
     border-radius: 50%;
     width: 20px;
@@ -169,9 +136,7 @@ span.slider-link:hover{
     margin-left: 183px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-    /*opacity: 0.5;*/
 }
-
 .section-1-p-1 {
     text-align: left;
     position: absolute;
@@ -216,8 +181,6 @@ span.slider-link:hover{
   border:none;
   background: none;
 }
-/*border-radius:0%*/
-}
 /*============================================================PAKALPOJUMI=============================================================*/
 .sub-container-header-block {
     border-bottom: 1px dashed #C7A457;
@@ -234,28 +197,18 @@ span.slider-link:hover{
     width: 406px;
     float:left;
     background-image: url("img/Mernieks-fons-gaisais.jpg");
-/*background-color: yellow;*/
 }
 .service-block > div{
     float:left;
     height: inherit;
     background-image: url("img/Mernieks-fons-gaisais.jpg");
-/*background-color: green;*/
 }
-/*.service-block > div{
-    height: inherit;
-    background-image: url("img/Mernieks-fons-gaisais.jpg");
-/*background-color: green;*/
-}*/
 .service-block-icon-block{
     width: 70px;
 }
 .space-icon{
   margin-right: 10px;
 }
-/*.space-icon2{
-  margin-left: 10px;
-}*/
 .service-block-right{
   float: right !important;
   width: 370px;
@@ -296,7 +249,6 @@ span.slider-link:hover{
 .special{
   padding-left: 10px;
 }
-
 /*=============================================PAKALPOJUMU IZCENOJUMI==================================================================*/
 .prices .float-left{
     width:609px;
@@ -310,7 +262,6 @@ span.slider-link:hover{
     margin-left: 20px;
 }
 .prices{
-/*height: 400px;*/
     background-image: url("img/Mernieks-fons-gaisais.jpg");
 }
 .prices-paragraph{
@@ -328,7 +279,6 @@ table .smaller-text{
 .prices table{
     border-collapse: collapse;
     min-width: 100%;
-    /*border-collapse: collapse;*/
     table-layout: fixed;
 }
 .prices table td.price{
@@ -370,7 +320,6 @@ table .smaller-text{
 .about-us-text-block {
     color:#EDE9E5;
     line-height: 25px;
-  /*baltā krāsa neparādās, it kā kods pareizs????????????????????????????????????*/
 }
 .about-us-subcontainer{
     margin:0 50px;
@@ -395,10 +344,6 @@ table .smaller-text{
     margin-bottom: 13px;
     border-bottom: 1px solid #8d7b66;
 }
-/*.personal-info-devider{
-    border-bottom: 1px solid #8d7b66;
-    margin-bottom: 10px;
-}*/
 .certificates-container{
     background-color: #624A36;
     margin-top: -39px;
@@ -409,7 +354,6 @@ table .smaller-text{
 }
 .one-certificate{
     background-color: #624A36;
-    /*background-color: red;*/
     width: 210px;
     height: 70px;
     margin: 0 10px;
@@ -424,7 +368,6 @@ table .smaller-text{
 }
 .two-certificate{
     background-color: #624A36;
-    /*background-color: red;*/
     width: 210px;
     height: 70px;
     margin: 0 190px;
@@ -448,7 +391,6 @@ table .smaller-text{
 .about-us-person1, .about-us-person2{
     width:600px;
     height:820px;
-    /*background-color: yellow;*/
     background-image: url("img/Mernieks-fons-tumsais.jpg");
 }
 .about-us-person1{
@@ -692,25 +634,10 @@ table .smaller-text{
 .up-button:hover{
   background-image: url("img/top.png");
 }
-/*.up{
-	background-image: url("img/UP-bulta.png");
-  position: absolute;
-  width: 59px;
-	height: 58px;
-	bottom: 12px;
-	right: 20px;
-	cursor: pointer;
-  /*background-color: red;*/
-}
-/*.up:hover{
-	background-image: url("img/top.png");*/
-}*/
-
 /*=========================================================KONTAKTI===================================================================*/
 .contacts{
     background-image: url("img/Mernieks-fons-tumsais.jpg");
     height:550px;
-    /*margin: 0 50px;*/
 }
 .contacts-border{
   margin: 0 50px;
@@ -718,12 +645,9 @@ table .smaller-text{
 .contacts-map-container{
     width: 400px;
     padding-top: 40px;
-    /*margin-left: 70px;*/
 }
 .contacts-map{
     height: 340px;
-    /*width: 100%;*/
-    /*margin: 0 -66px;*/
     border: 5px solid #C7A457;
 }
 .google-map{
